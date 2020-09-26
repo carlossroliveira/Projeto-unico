@@ -1,0 +1,69 @@
+.body-principal .main-principal {
+  margin-top: 13px;
+}
+
+.body-principal .main-principal .parallax {
+  background-attachment: fixed;
+  height: 525px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.body-principal .main-principal .parallax .titulo-parallax {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 500px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  font-family: 'Alata', sans-serif;
+}
+
+.body-principal .main-principal .parallax .titulo-parallax h1 {
+  font-size: 64px;
+}
+
+.body-principal .main-principal .parallax .titulo-parallax h1::after {
+  content: '';
+  width: 200px;
+  height: 4px;
+  background-color: white;
+  display: block;
+  margin: 10px auto;
+}
+
+.body-principal .main-principal .parallax .titulo-parallax h3 {
+  font-size: 42px;
+}
+
+.body-principal .main-principal .pi {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("../img/salvador.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5)), url("../img/salvador.jpg");
+}
+
+@media (max-width: 767px) {
+  .body-principal .main-principal .parallax {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .body-principal .main-principal .parallax .titulo-parallax {
+    width: unset;
+  }
+  .body-principal .main-principal .parallax .titulo-parallax h1 {
+    font-size: 40px;
+  }
+  .body-principal .main-principal .parallax .titulo-parallax h1::after {
+    width: 100px;
+    height: 3px;
+  }
+  .body-principal .main-principal .parallax .titulo-parallax h3 {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=parallax-top.css.map */

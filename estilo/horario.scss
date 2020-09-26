@@ -1,0 +1,26 @@
+.body-principal {
+    .table-titulo {
+        text-align: center;
+        font-family: 'Alata', sans-serif;
+        font-weight: 600;
+        margin: 0 0 30px;
+    }
+
+    .table {
+        background-color: #212121;
+        color: white;
+        box-shadow: 10px 10px 10px #000000;
+
+        .table-text {
+            text-align: center;
+        }
+
+        .table-text:hover {
+            background-color: red;
+        }
+    }
+
+    .table-green:hover {
+        background-color: #2b9348;
+    }
+}

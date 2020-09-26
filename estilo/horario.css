@@ -1,0 +1,26 @@
+.body-principal .table-titulo {
+  text-align: center;
+  font-family: 'Alata', sans-serif;
+  font-weight: 600;
+  margin: 0 0 30px;
+}
+
+.body-principal .table {
+  background-color: #212121;
+  color: white;
+  -webkit-box-shadow: 10px 10px 10px #000000;
+          box-shadow: 10px 10px 10px #000000;
+}
+
+.body-principal .table .table-text {
+  text-align: center;
+}
+
+.body-principal .table .table-text:hover {
+  background-color: red;
+}
+
+.body-principal .table-green:hover {
+  background-color: #2b9348;
+}
+/*# sourceMappingURL=horario.css.map */

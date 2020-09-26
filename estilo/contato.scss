@@ -1,0 +1,118 @@
+.body-principal {
+    .main-principal {
+        .section-contato {
+            background-image: url('../img/bg-preto.jpg');
+
+            .form-principal {
+                margin: 100px auto 0 auto;
+                color: white;
+
+                .formulario {
+
+                    .botaoEnviar {
+                        padding: 11px 20px;
+                        cursor: pointer;
+                        border: 0;
+                        border-radius: 5px;
+                        background-color: #2b9348;
+                        font-weight: 600;
+                        color: white;
+                    }
+
+                    .botaoEnviar:hover {
+                        color: #212121;
+                    }
+
+                    .form-control {
+                        border: 1px solid #212121;
+                    }
+                }
+
+                .titulo-contato {
+                    text-align: center;
+                    margin: 20px auto 40px;
+                    font-weight: 600;
+                    font-family: 'Alata', sans-serif;
+                }
+            }
+        }
+
+        .d-flex {
+            .p-2:nth-child(2) {
+                max-width: 50%;
+                margin-left: 50px;
+            }
+
+            .contato-parte2 {
+                background-color: #2b9348;
+                padding: 5px 10px 0px 10px;
+                height: 225px;
+
+                h3 {
+                    margin-bottom: 25px;
+                }
+
+                ul {
+                    list-style: none;
+
+                    .fa {
+                        position: absolute;
+                        left: 5%;
+                        display: block;
+                        color: rgba(0, 0, 0, 0.7);
+                        width: 30px;
+                        height: 30px;
+                        line-height: 30px;
+                        font-size: 23px;
+                        text-align: center;
+                    }
+
+                    .end {
+                        margin-left: 20px;
+                        height: 60px;
+                        font-weight: 600;
+                        color: white;
+                    }
+                }
+            }
+
+            .map {
+                margin-top: 10px;
+            }
+        }
+
+        .form-control:focus {
+            box-shadow: none;
+            border-color: #2b9348 !important;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .main-principal {
+            .form-principal {
+                margin: 100px auto 40px;
+            }
+
+            .d-flex {
+                display: block !important;
+
+                .p-2:nth-child(2) {
+                    max-width: unset;
+                    margin-left: unset;
+                }
+
+                .map {
+                    display: none;
+                }
+            }
+        }
+
+    }
+
+    @media (max-width: 374px) {
+        .contato-parte2 {
+            font-size: 12px;
+        }
+    }
+
+}

@@ -1,0 +1,190 @@
+.body-principal {
+  /* RODA-PE-DESKTOP */
+  /* RODA-PE-MOBILE */
+}
+
+.body-principal .footer-principal {
+  background-color: #212121;
+  padding: 5%;
+}
+
+.body-principal .footer-principal p {
+  font-size: 14px;
+  color: white;
+}
+
+.body-principal .footer-principal h5 {
+  color: #2b9348;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+
+.body-principal .footer-principal .footer-conteudo {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.body-principal .footer-principal .footer-conteudo .conteudo-1 .pro > small {
+  font-size: 14px;
+}
+
+.body-principal .footer-principal .footer-conteudo .conteudo-1 small > a {
+  text-decoration: none;
+  color: white;
+}
+
+.body-principal .footer-principal .footer-conteudo .conteudo-1 small > a:hover {
+  color: #2b9348;
+}
+
+.body-principal .footer-principal .footer-conteudo .conteudo-1 > p:nth-child(1) {
+  padding-bottom: 50px;
+}
+
+.body-principal .footer-principal .footer-conteudo .conteudo-2 .rede-social {
+  max-width: 35px;
+  margin-left: 10px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.body-principal .footer-principal .footer-conteudo .conteudo-2 .rede-social:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.body-principal .footer-principal .footer-conteudo .conteudo-3 ul {
+  padding: 0;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.body-principal .footer-principal .footer-conteudo .conteudo-3 ul li {
+  color: #2b9348;
+}
+
+.body-principal .footer-principal .footer-conteudo .conteudo-3 ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.body-principal .footer-principal .footer-conteudo .conteudo-3 ul li a:hover {
+  color: #2b9348;
+}
+
+.body-principal .footer-principal .footer-conteudo .conteudo-4 .img-pagamento {
+  max-width: 55px;
+  margin-left: 3%;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.body-principal .footer-principal .footer-conteudo .conteudo-4 .img-pagamento:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.body-principal .footer-principal .footer-conteudo .conteudo-4 p {
+  margin-top: 6%;
+}
+
+.body-principal .footer-principal .footer-conteudo .mod {
+  margin: 0 auto;
+}
+
+.body-principal .footer-principal .footer-conteudo .mod .pro > small {
+  font-size: 14px;
+}
+
+.body-principal .footer-principal .footer-conteudo .mod small > a {
+  text-decoration: none;
+  color: white;
+}
+
+.body-principal .footer-principal .footer-conteudo .mod small > a:hover {
+  color: #2b9348;
+}
+
+.body-principal .footer-principal .up {
+  background-color: #2b9348;
+  opacity: 0.7;
+  border-radius: 50px;
+  bottom: 14px;
+  -webkit-box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  height: 40px;
+  position: fixed;
+  right: 22px;
+  width: 40px;
+  z-index: 1;
+}
+
+.body-principal .footer-principal .up .seta {
+  position: absolute;
+  right: 8px;
+  top: 7px;
+  max-width: 25px;
+}
+
+@media (max-width: 575px) {
+  .body-principal .footer-principal .footer-conteudo .conteudo-1 {
+    margin: 10px auto 0px auto;
+  }
+  .body-principal .footer-principal .footer-conteudo .conteudo-1 > p:nth-child(1) {
+    padding-bottom: 20px;
+  }
+  .body-principal .footer-principal .footer-conteudo .conteudo-2 .rede-social {
+    -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+  }
+  .body-principal .footer-principal .footer-conteudo .conteudo-3 {
+    margin: 40px auto 20px auto;
+  }
+  .body-principal .footer-principal .footer-conteudo .conteudo-4 {
+    margin: 20px auto;
+  }
+  .body-principal .footer-principal .footer-conteudo .conteudo-4 .img-pagamento {
+    -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .body-principal .footer-principal .footer-conteudo {
+    padding: 0;
+  }
+  .body-principal .footer-principal .footer-conteudo .conteudo-2 .rede-social {
+    -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+  }
+  .body-principal .footer-principal .footer-conteudo .conteudo-4 .img-pagamento {
+    -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+  }
+  .body-principal .footer-principal .footer-conteudo .mod {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .body-principal .footer-principal .footer-conteudo {
+    padding: 0;
+  }
+  .body-principal .footer-principal .footer-conteudo .conteudo-2 .rede-social {
+    -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+  }
+  .body-principal .footer-principal .footer-conteudo .conteudo-4 .img-pagamento {
+    -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+  }
+  .body-principal .footer-principal .footer-conteudo .mod {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=rodaPe.css.map */
