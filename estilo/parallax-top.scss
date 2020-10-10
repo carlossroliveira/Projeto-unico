@@ -24,19 +24,33 @@
                 text-align: center;
                 font-family: 'Alata', sans-serif;
 
-                h1 {
-                    font-size: 64px;
-
+                .tituloP {
+                    font-size: 4rem;
                 }
 
                 .tituloP::after {
-                    content: '';
-                    width: 200px;
-                    height: 4px;
-                    background-color: white;
-                    display: block;
-                    margin: 10px auto;
+                    content: '|';
+                    margin-left: 1px;
+                    opacity: 1;
+                    animation: pisca .7s infinite;
+                    font-size: 80%;
                 }
+
+                @keyframes pisca {
+
+                    0% {
+                        opacity: 1;
+                    }
+
+                    50% {
+                        opacity: 0;
+                    }
+
+                    100% {
+                        opacity: 1;
+                    }
+                }
+
             }
         }
 
@@ -45,7 +59,7 @@
         }
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: 425px) {
         .main-principal {
             .parallax {
                 background-size: cover;
@@ -54,18 +68,28 @@
 
                 .titulo-parallax {
                     width: unset;
+                    width: 60%;
 
-                    h1 {
-                        font-size: 40px;
+                    .tituloP {
+                        font-size: 35px;
                     }
+                }
+            }
+        }
+    }
+    @media (min-width: 426px) and (max-width: 767px) {
+        .main-principal {
+            .parallax {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: right;
 
-                    h1::after {
-                        width: 100px;
-                        height: 3px;
-                    }
+                .titulo-parallax {
+                    width: unset;
+                    width: 50%;
 
-                    h3 {
-                        font-size: 30px;
+                    .tituloP {
+                        font-size: 50px;
                     }
                 }
             }
