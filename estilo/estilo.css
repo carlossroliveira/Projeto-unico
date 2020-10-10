@@ -499,7 +499,7 @@
   left: 0;
   right: 0;
   margin: auto;
-  width: 500px;
+  width: 25%;
   height: 100px;
   color: white;
   text-align: center;
@@ -510,7 +510,7 @@
   font-size: 64px;
 }
 
-.body-principal .main-principal .parallax .titulo-parallax h1::after {
+.body-principal .main-principal .parallax .titulo-parallax .tituloP::after {
   content: '';
   width: 200px;
   height: 4px;
@@ -519,8 +519,9 @@
   margin: 10px auto;
 }
 
-.body-principal .main-principal .parallax .titulo-parallax h3 {
+.body-principal .main-principal .parallax .titulo-parallax .tituloP:nth-child(-n+4) {
   font-size: 42px;
+  color: red;
 }
 
 .body-principal .main-principal .pi {

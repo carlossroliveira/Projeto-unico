@@ -17,7 +17,7 @@
                 left: 0;
                 right: 0;
                 margin: auto;
-                width: 500px;
+                width: 25%;
                 height: 100px;
                 color: white;
 
@@ -29,17 +29,13 @@
 
                 }
 
-                h1::after {
+                .tituloP::after {
                     content: '';
                     width: 200px;
                     height: 4px;
                     background-color: white;
                     display: block;
                     margin: 10px auto;
-                }
-
-                h3 {
-                    font-size: 42px;
                 }
             }
         }
