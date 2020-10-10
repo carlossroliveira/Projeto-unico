@@ -1,12 +1,22 @@
-
 .body-principal {
     .main-principal {
         .carousel {
             .slick-arrow {
                 display: none !important;
             }
-            .slick-dots{
+
+            .slick-dots {
                 display: none !important;
+            }
+        }
+
+        @media (max-width: 479px) {
+            .img-slick {
+                margin: 0 auto;
+            }
+
+            .titulo-slick01 {
+                margin: 0 auto;
             }
         }
     }

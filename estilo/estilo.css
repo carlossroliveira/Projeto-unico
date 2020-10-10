@@ -499,7 +499,7 @@
   left: 0;
   right: 0;
   margin: auto;
-  width: 25%;
+  width: 29%;
   height: 100px;
   color: white;
   text-align: center;
@@ -563,18 +563,13 @@
   }
 }
 
-@media (min-width: 426px) and (max-width: 767px) {
-  .body-principal .main-principal .parallax {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-  }
+@media (min-width: 426px) and (max-width: 991px) {
   .body-principal .main-principal .parallax .titulo-parallax {
     width: unset;
     width: 50%;
   }
   .body-principal .main-principal .parallax .titulo-parallax .tituloP {
-    font-size: 35px;
+    font-size: 50px;
   }
 }
 
@@ -588,6 +583,7 @@
 .body-principal .table {
   background-color: #212121;
   color: white;
+  font-size: 64%;
   -webkit-box-shadow: 10px 10px 10px #000000;
           box-shadow: 10px 10px 10px #000000;
 }

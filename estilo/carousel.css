@@ -5,4 +5,13 @@
 .body-principal .main-principal .carousel .slick-dots {
   display: none !important;
 }
+
+@media (max-width: 479px) {
+  .body-principal .main-principal .img-slick {
+    margin: 0 auto;
+  }
+  .body-principal .main-principal .titulo-slick01 {
+    margin: 0 auto;
+  }
+}
 /*# sourceMappingURL=carousel.css.map */

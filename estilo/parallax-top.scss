@@ -17,7 +17,7 @@
                 left: 0;
                 right: 0;
                 margin: auto;
-                width: 25%;
+                width: 29%;
                 height: 100px;
                 color: white;
 
@@ -77,12 +77,9 @@
             }
         }
     }
-    @media (min-width: 426px) and (max-width: 767px) {
+    @media (min-width: 426px) and (max-width: 991px) {
         .main-principal {
             .parallax {
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: right;
 
                 .titulo-parallax {
                     width: unset;
@@ -95,4 +92,5 @@
             }
         }
     }
+  
 }
