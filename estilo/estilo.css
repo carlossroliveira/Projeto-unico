@@ -632,6 +632,15 @@
   display: none !important;
 }
 
+@media (max-width: 479px) {
+  .body-principal .main-principal .img-slick {
+    margin: 0 auto;
+  }
+  .body-principal .main-principal .titulo-slick01 {
+    margin: 0 auto;
+  }
+}
+
 .body-principal .servicos {
   margin-bottom: 80px;
 }
