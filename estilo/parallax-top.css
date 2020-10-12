@@ -1,3 +1,7 @@
+.body-principal {
+  /* Ajuste do titulo height */
+}
+
 .body-principal .main-principal {
   margin-top: 13px;
 }
@@ -88,6 +92,12 @@
   }
   .body-principal .main-principal .parallax .titulo-parallax .tituloP {
     font-size: 50px;
+  }
+}
+
+@media (min-width: 1818px) and (max-width: 2560px) {
+  .body-principal .main-principal .parallax .titulo-parallax {
+    height: 40%;
   }
 }
 /*# sourceMappingURL=parallax-top.css.map */

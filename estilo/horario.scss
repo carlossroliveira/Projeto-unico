@@ -9,7 +9,7 @@
     .table {
         background-color: #212121;
         color: white;
-        font-size: 64%;
+        font-size: 100%;
         box-shadow: 10px 10px 10px #000000;
 
         .table-text {
@@ -23,5 +23,19 @@
 
     .table-green:hover {
         background-color: #2b9348;
+    }
+
+
+    .table-titulo {
+        text-align: center;
+        font-family: 'Alata', sans-serif;
+        font-weight: 600;
+        margin: 0 0 30px;
+    }
+
+    @media (max-width: 425px) {
+        .table {
+            font-size: 64%;
+        }
     }
 }

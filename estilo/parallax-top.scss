@@ -20,7 +20,6 @@
                 width: 29%;
                 height: 100px;
                 color: white;
-
                 text-align: center;
                 font-family: 'Alata', sans-serif;
 
@@ -77,6 +76,7 @@
             }
         }
     }
+
     @media (min-width: 426px) and (max-width: 991px) {
         .main-principal {
             .parallax {
@@ -92,5 +92,15 @@
             }
         }
     }
-  
+
+    /* Ajuste do titulo height */
+    @media (min-width: 1818px) and (max-width: 2560px) {
+        .main-principal {
+            .parallax {
+                .titulo-parallax {
+                    height: 40%;
+                }
+            }
+        }
+    }
 }
