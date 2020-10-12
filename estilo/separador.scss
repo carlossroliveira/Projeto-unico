@@ -42,7 +42,7 @@
         }
     }
 
-    @media (min-width: 768px) and (max-width: 991px){
+    @media (min-width: 768px) and (max-width: 991px) {
         .separador-03 {
             background-image: url('../img/kit-03-s.png');
             background-repeat: no-repeat;
@@ -50,7 +50,7 @@
             margin: 25px auto;
             max-width: 65%;
         }
-    
+
         .separador-02 {
             background-image: url('../img/kit-02-s.png');
             background-repeat: no-repeat;
@@ -58,7 +58,7 @@
             margin: 25px auto;
             max-width: 65%;
         }
-    
+
         .separador-01 {
             background-image: url('../img/kit-01-s.png');
             background-repeat: no-repeat;
@@ -68,54 +68,54 @@
         }
     }
 
-    @media (min-width: 426px) and (max-width: 767px){
+    @media (min-width: 426px) and (max-width: 767px) {
         .separador-03 {
-            background-image: url('../img/kit-03-s.png');
+            background-image: url('../img/kit-03-sm.png');
             max-width: 65%;
         }
-        
+
         .separador-02 {
-            background-image: url('../img/kit-02-s.png');
+            background-image: url('../img/kit-02-sm.png');
             max-width: 65%;
         }
-    
+
         .separador-01 {
-            background-image: url('../img/kit-01-s.png');
+            background-image: url('../img/kit-01-sm.png');
             max-width: 65%;
         }
     }
 
-    @media(max-width: 320px){
+    @media(max-width: 425px) {
         .separador-03 {
             background-image: url('../img/kit-03-sm.png');
-            max-width: 90%;
+            max-width: 65;
         }
-    
-        .separador-02 {
-            background-image: url('../img/kit-02-sm.png');
-            max-width: 90%;
-        }
-    
-        .separador-01 {
-            background-image: url('../img/kit-01-sm.png');
-            max-width: 90%;
-        }
-    } 
 
-    @media(max-width: 425px){
-        .separador-03 {
-            background-image: url('../img/kit-03-sm.png');
-            max-width: 65;
-        }
-    
         .separador-02 {
             background-image: url('../img/kit-02-sm.png');
             max-width: 65;
         }
-    
+
         .separador-01 {
             background-image: url('../img/kit-01-sm.png');
             max-width: 65;
+        }
+    }
+
+    @media(max-width: 320px) {
+        .separador-03 {
+            background-image: url('../img/kit-03-sm.png');
+            max-width: 90%;
+        }
+
+        .separador-02 {
+            background-image: url('../img/kit-02-sm.png');
+            max-width: 90%;
+        }
+
+        .separador-01 {
+            background-image: url('../img/kit-01-sm.png');
+            max-width: 90%;
         }
     }
 }
