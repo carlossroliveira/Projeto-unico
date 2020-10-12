@@ -1,7 +1,7 @@
 .body-principal {
 
     .separador-03 {
-        background-image: url('../img/kit-03.png');
+        background-image: url('../img/separador/kit-03.png');
         background-repeat: no-repeat;
         height: 65px;
         margin: 25px auto;
@@ -9,7 +9,7 @@
     }
 
     .separador-02 {
-        background-image: url('../img/kit-02.png');
+        background-image: url('../img/separador/kit-02.png');
         background-repeat: no-repeat;
         height: 65px;
         margin: 25px auto;
@@ -17,7 +17,7 @@
     }
 
     .separador-01 {
-        background-image: url('../img/kit-01.png');
+        background-image: url('../img/separador/kit-01.png');
         background-repeat: no-repeat;
         height: 65px;
         margin: 0 auto;
@@ -44,7 +44,7 @@
 
     @media (min-width: 768px) and (max-width: 991px) {
         .separador-03 {
-            background-image: url('../img/kit-03-s.png');
+            background-image: url('../img/separador/kit-03-s.png');
             background-repeat: no-repeat;
             height: 65px;
             margin: 25px auto;
@@ -52,7 +52,7 @@
         }
 
         .separador-02 {
-            background-image: url('../img/kit-02-s.png');
+            background-image: url('../img/separador/kit-02-s.png');
             background-repeat: no-repeat;
             height: 65px;
             margin: 25px auto;
@@ -60,7 +60,7 @@
         }
 
         .separador-01 {
-            background-image: url('../img/kit-01-s.png');
+            background-image: url('../img/separador/kit-01-s.png');
             background-repeat: no-repeat;
             height: 65px;
             margin: 0 auto;
@@ -70,51 +70,51 @@
 
     @media (min-width: 426px) and (max-width: 767px) {
         .separador-03 {
-            background-image: url('../img/kit-03-sm.png');
+            background-image: url('../img/separador/kit-03-sm.png');
             max-width: 65%;
         }
 
         .separador-02 {
-            background-image: url('../img/kit-02-sm.png');
+            background-image: url('../img/separador/kit-02-sm.png');
             max-width: 65%;
         }
 
         .separador-01 {
-            background-image: url('../img/kit-01-sm.png');
+            background-image: url('../img/separador/kit-01-sm.png');
             max-width: 65%;
         }
     }
 
     @media(max-width: 425px) {
         .separador-03 {
-            background-image: url('../img/kit-03-sm.png');
+            background-image: url('../img/separador/kit-03-sm.png');
             max-width: 65;
         }
 
         .separador-02 {
-            background-image: url('../img/kit-02-sm.png');
+            background-image: url('../img/separador/kit-02-sm.png');
             max-width: 65;
         }
 
         .separador-01 {
-            background-image: url('../img/kit-01-sm.png');
+            background-image: url('../img/separador/kit-01-sm.png');
             max-width: 65;
         }
     }
 
     @media(max-width: 320px) {
         .separador-03 {
-            background-image: url('../img/kit-03-sm.png');
+            background-image: url('../img/separador/kit-03-sm.png');
             max-width: 90%;
         }
 
         .separador-02 {
-            background-image: url('../img/kit-02-sm.png');
+            background-image: url('../img/separador/kit-02-sm.png');
             max-width: 90%;
         }
 
         .separador-01 {
-            background-image: url('../img/kit-01-sm.png');
+            background-image: url('../img/separador/kit-01-sm.png');
             max-width: 90%;
         }
     }
