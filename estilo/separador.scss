@@ -68,6 +68,23 @@
         }
     }
 
+    @media (min-width: 426px) and (max-width: 767px){
+        .separador-03 {
+            background-image: url('../img/kit-03-s.png');
+            max-width: 65%;
+        }
+        
+        .separador-02 {
+            background-image: url('../img/kit-02-s.png');
+            max-width: 65%;
+        }
+    
+        .separador-01 {
+            background-image: url('../img/kit-01-s.png');
+            max-width: 65%;
+        }
+    }
+
     @media(max-width: 320px){
         .separador-03 {
             background-image: url('../img/kit-03-sm.png');
