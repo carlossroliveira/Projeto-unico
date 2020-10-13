@@ -1,0 +1,16 @@
+.body-principal .servicos {
+  margin-bottom: 80px;
+}
+
+.body-principal .servicos .titulo-slick {
+  text-align: center;
+  font-family: 'Alata', sans-serif;
+  font-weight: 600;
+  margin: 15px 0px;
+}
+
+.body-principal .servicos .slick-principal .titulo-slick01 {
+  max-width: 180px;
+  text-align: center;
+}
+/*# sourceMappingURL=carousel.css.map */
