@@ -4,26 +4,7 @@
 @import"./parallax-top.scss";
 @import "./horario.scss";
 @import "./separador.scss";
+@import "./slick.scss";
 @import "./carousel.scss";
 
 
-
-
-
-.body-principal {
-    .servicos {
-        margin-bottom: 80px;
-        .titulo-slick {
-            text-align: center;
-            font-family: 'Alata', sans-serif;
-            font-weight: 600;
-            margin: 15px 0px;
-        }
-        .slick-principal{
-            .titulo-slick01{
-                max-width: 180px;
-                text-align: center;
-            }
-        }
-    }
-}

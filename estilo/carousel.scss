@@ -1,22 +1,16 @@
 .body-principal {
-    .main-principal {
-        .carousel {
-            .slick-arrow {
-                display: none !important;
-            }
-
-            .slick-dots {
-                display: none !important;
-            }
+    .servicos {
+        margin-bottom: 80px;
+        .titulo-slick {
+            text-align: center;
+            font-family: 'Alata', sans-serif;
+            font-weight: 600;
+            margin: 15px 0px;
         }
-
-        @media (max-width: 479px) {
-            .img-slick {
-                margin: 0 auto;
-            }
-
-            .titulo-slick01 {
-                margin: 0 auto;
+        .slick-principal{
+            .titulo-slick01{
+                max-width: 180px;
+                text-align: center;
             }
         }
     }

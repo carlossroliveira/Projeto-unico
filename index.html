@@ -30,7 +30,7 @@
 <body class="body-principal">
 
     <!-- Cima -->
-    <header class="header-principal sticky fixed-top">
+    <header class="header-principal sticky fixed-top menu">
         <nav class="navbar navbar-expand-md container nav-principal">
 
             <a class="container-img-desktop" href="#">
@@ -45,10 +45,10 @@
                 </button>
 
                 <div class="collapse navbar-collapse menu-principal" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
+                    <div class="navbar-nav menu-nav">
                         <a class="nav-item nav-link " href="#inicio">Inicio <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link " href="#">Serviços</a>
-                        <a class="nav-item nav-link " href="#">Horário</a>
+                        <a class="nav-item nav-link " href="#servicos">Serviços</a>
+                        <a class="nav-item nav-link " href="#horario">Horário</a>
                         <a class="nav-item nav-link " href="#contato">Contato</a>
                         <a class="nav-item nav-link " href="#duvida">Duvida</a>
                         <div class="iconeBotaoInterno">
@@ -83,7 +83,7 @@
         </section>
 
         <!--  SERVIÇOS  -->
-        <section class="servicos">
+        <section id="servicos">
             <div class="container">
                 <div class="separador-02"></div>
             </div>
@@ -115,7 +115,7 @@
         </section>
 
         <!-- Funcionamento -->
-        <section id="duvida">
+        <section id="horario">
             <div class="container">
                 <div class="separador-01"></div>
             </div>
@@ -258,13 +258,14 @@
             <div class="separador-03"></div>
         </div>
 
-        <div>
+        <div id="duvida">
             <h1>
                 Dúvidaa
             </h1>
         </div>
 
     </main>
+
 
     <!-- baixo -->
     <footer class="footer-principal">
@@ -330,10 +331,12 @@
     <script src="./app.js/sticky.js"></script>
     <script src="./app.js/botaoMobile.js"></script>
     <script src="./app.js/digitar.js"></script>
+    <script src="./app.js/scroll-suave.js"></script>
 
     <!-- Slick -->
     <script src="./slick/slick/slick.min.js"></script>
     <script src="./app.js/carousel.js"></script>
+
 
 
 </body>
