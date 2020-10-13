@@ -732,6 +732,23 @@
   }
 }
 
+.body-principal #servicos {
+  padding-top: 1px;
+  margin-bottom: 80px;
+}
+
+.body-principal #servicos .titulo-slick {
+  text-align: center;
+  font-family: 'Alata', sans-serif;
+  font-weight: 600;
+  margin: 15px 0px;
+}
+
+.body-principal #servicos .slick-principal .titulo-slick01 {
+  max-width: 180px;
+  text-align: center;
+}
+
 .body-principal .main-principal .carousel .slick-arrow {
   display: none !important;
 }
@@ -747,21 +764,5 @@
   .body-principal .main-principal .titulo-slick01 {
     margin: 0 auto;
   }
-}
-
-.body-principal .servicos {
-  margin-bottom: 80px;
-}
-
-.body-principal .servicos .titulo-slick {
-  text-align: center;
-  font-family: 'Alata', sans-serif;
-  font-weight: 600;
-  margin: 15px 0px;
-}
-
-.body-principal .servicos .slick-principal .titulo-slick01 {
-  max-width: 180px;
-  text-align: center;
 }
 /*# sourceMappingURL=estilo.css.map */
