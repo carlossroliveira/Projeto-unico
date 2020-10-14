@@ -765,4 +765,21 @@
     margin: 0 auto;
   }
 }
+
+.body-principal #duvida {
+  /* max-width: 960px;
+        padding-top: 60px;
+        margin: 0 auto; */
+  max-width: 1093px;
+  margin: 0 auto;
+}
+
+.body-principal #duvida .duvida-seg {
+  background-image: url("../img/barbearia.png");
+  background-color: #212121;
+}
+
+.body-principal #duvida .duvida-seg h1 {
+  /*  color: #fff; */
+}
 /*# sourceMappingURL=estilo.css.map */

@@ -9,5 +9,20 @@
 
 
 .body-principal {
-
+    #duvida{
+        /* max-width: 960px;
+        padding-top: 60px;
+        margin: 0 auto; */
+        max-width: 1093px;
+        margin: 0 auto;
+        .duvida-seg{
+            background-image: url('../img/barbearia.png');
+            
+            background-color: #212121;
+            
+            h1{
+               /*  color: #fff; */
+            }
+        }
+    }
 }
