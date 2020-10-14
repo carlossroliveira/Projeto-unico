@@ -381,7 +381,7 @@
 }
 
 .body-principal .main-principal .section-contato .form-principal {
-  margin: 100px auto 0 auto;
+  margin: 65px auto 0 auto;
   color: white;
 }
 
@@ -766,20 +766,17 @@
   }
 }
 
-.body-principal #duvida {
-  /* max-width: 960px;
-        padding-top: 60px;
-        margin: 0 auto; */
+.body-principal .duvida-pri {
   max-width: 1093px;
-  margin: 0 auto;
+  margin: 65px auto 0;
 }
 
-.body-principal #duvida .duvida-seg {
+.body-principal .duvida-pri .duvida-seg {
   background-image: url("../img/barbearia.png");
   background-color: #212121;
 }
 
-.body-principal #duvida .duvida-seg h1 {
-  /*  color: #fff; */
+.body-principal .duvida-pri .duvida-seg h1 {
+  color: #fff;
 }
 /*# sourceMappingURL=estilo.css.map */
