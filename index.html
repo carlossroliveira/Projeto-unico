@@ -73,6 +73,10 @@
     <!-- meio -->
     <main class="main-principal">
 
+        <fieldset>
+            <h1><a href="">a</a></h1>
+        </fieldset>
+
         <!-- Parallax -->
         <section class="parallax pi" id="inicio">
 
@@ -82,7 +86,7 @@
 
         </section>
 
-        <!--  SERVIÇOS  -->
+        <!--  Servicos  -->
         <section id="servicos">
             <div class="container">
                 <div class="separador-02"></div>
@@ -114,7 +118,7 @@
             </div>
         </section>
 
-        <!-- Funcionamento -->
+        <!-- horario -->
         <section id="horario">
             <div class="container">
                 <div class="separador-01"></div>
@@ -254,16 +258,18 @@
             </div>
         </section>
 
-        <div class="container">
+
+        <section id="duvida">
+            <h1>hahahahahhahaha</h1>
+            <h1>hahahahahhahaha</h1>
+            <h1>hahahahahhahaha</h1>
+            <h1>hahahahahhahaha</h1>
+            <h1>hahahahahhahaha</h1>
+            <h1>hahahahahhahaha</h1>
+            <h1>hahahahahhahaha</h1>
+            <h1>hahahahahhahaha</h1>
             <div class="separador-03"></div>
-        </div>
-
-        <section id="duvida" class="teste99">
-            <h1>
-                Dúvidaa
-            </h1>
         </section>
-
     </main>
 
 
@@ -333,35 +339,15 @@
     <script src="./app.js/digitar.js"></script>
     <script src="./app.js/scroll-suave.js"></script>
 
+
     <!-- Slick -->
     <script src="./slick/slick/slick.min.js"></script>
     <script src="./app.js/carousel.js"></script>
 
+     <!-- Mudar para active o menu de acordo com a área -->
+    <script src="./app.js/menuTop.js"></script>
 
-
-    <script>
-        // Mudar para active o menu de acordo com a área
-        $('section').each(function () {
-            var height = $(this).height(),
-                offsetTop = $(this).offset().top,
-                menuHeight = $('.menu').innerHeight(),
-                id = $(this).attr('id'),
-                $itemMenu = $('a[href="#' + id + '"]');
-
-            $(window).scroll(function () {
-                var scrollTop = $(window).scrollTop();
-
-
-                if (offsetTop - menuHeight - menuHeight < scrollTop && offsetTop + height - menuHeight >
-                    scrollTop) {
-                    $itemMenu.addClass('active');
-                } else {
-                    $itemMenu.removeClass('active');
-                }
-            });
-        });
-    </script>
-
+   
 </body>
 
 </html>
