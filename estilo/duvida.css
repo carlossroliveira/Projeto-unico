@@ -1,0 +1,57 @@
+.body-principal .duvida-pri {
+  max-width: 1093px;
+  margin: 65px auto 0;
+  font-family: 'Alata', sans-serif;
+}
+
+.body-principal .duvida-pri .titulo-duvida {
+  text-align: center;
+  font-weight: 600;
+  margin: 20px auto 40px;
+}
+
+.body-principal .duvida-pri .duvida-seg {
+  background-image: url("../img/barbearia-o.png");
+  background-repeat: no-repeat;
+  background-color: #212121;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.body-principal .duvida-pri .duvida-seg .texto-duvida {
+  color: #fff;
+  text-align: center;
+  padding: 57px 26px;
+}
+
+.body-principal .duvida-pri .duvida-seg .img-duvida {
+  max-width: 100% !important;
+}
+
+@media (max-width: 425px) {
+  .body-principal .duvida-pri .titulo-duvida {
+    margin: -35px auto 40px;
+  }
+  .body-principal .duvida-pri .duvida-seg .texto-duvida {
+    font-size: 20px;
+    padding: 30px 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .body-principal .duvida-pri .titulo-duvida {
+    margin: -25px auto 40px;
+  }
+  .body-principal .duvida-pri .duvida-seg .texto-duvida {
+    color: #fff;
+    text-align: center;
+    padding: 57px 26px;
+  }
+  .body-principal .duvida-pri .duvida-seg .img-duvida {
+    max-width: 130% !important;
+    position: absolute;
+    left: -90px;
+    top: 35px;
+  }
+}
+/*# sourceMappingURL=duvida.css.map */

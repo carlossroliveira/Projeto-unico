@@ -196,7 +196,17 @@
                             background-color: transparent;
                         }
                     }
+                    .navbar-nav>a::after {
+                        display: none;
+                    }
+    
+                    .navbar-nav a:hover::after,
+                    .navbar-nav a.active::after {
+                        width: 0;
+                    }
                 }
+
+
             }
         }
     }

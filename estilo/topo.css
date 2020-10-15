@@ -184,5 +184,12 @@
   .body-principal .header-principal .nav-principal .menu-principal .navbar-nav .nav-item {
     background-color: transparent;
   }
+  .body-principal .header-principal .nav-principal .menu-principal .navbar-nav > a::after {
+    display: none;
+  }
+  .body-principal .header-principal .nav-principal .menu-principal .navbar-nav a:hover::after,
+  .body-principal .header-principal .nav-principal .menu-principal .navbar-nav a.active::after {
+    width: 0;
+  }
 }
 /*# sourceMappingURL=topo.css.map */
