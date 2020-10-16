@@ -4,7 +4,6 @@
         margin: 65px auto 0;
         font-family: 'Alata', sans-serif;
 
-
         .titulo-duvida {
             text-align: center;
             font-weight: 600;
@@ -17,14 +16,19 @@
             background-color: #212121;
             box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 
-            .texto-duvida {
-                color: #fff;
-                text-align: center;
-                padding: 57px 26px;
+            .seg-duvida {
+                margin: auto 0;
+
+                .texto-duvida {
+                    color: #fff;
+                    text-align: center;
+                    padding: 57px 26px;
+                }
             }
 
             .img-duvida {
                 max-width: 100% !important;
+                margin-top: 30px;
             }
         }
     }
@@ -38,7 +42,7 @@
             .duvida-seg {
                 .texto-duvida {
                     font-size: 20px;
-                    padding: 30px 20px;
+                    padding: 20px 20px 0 !important;
                 }
             }
         }
@@ -51,6 +55,8 @@
             }
 
             .duvida-seg {
+                position: relative;
+
                 .texto-duvida {
                     color: #fff;
                     text-align: center;
@@ -58,10 +64,11 @@
                 }
 
                 .img-duvida {
-                    max-width: 130% !important;
+                    margin-top: 0;
+                    max-width: 100% !important;
                     position: absolute;
-                    left: -90px;
-                    top: 35px;
+                    left: -20px;
+                    top: 60px;
                 }
             }
         }
