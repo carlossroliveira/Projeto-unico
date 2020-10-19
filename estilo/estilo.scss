@@ -1,7 +1,7 @@
 @import "./topo.scss";
-@import"./rodaPe.scss";
-@import"./contato.scss";
-@import"./parallax-top.scss";
+@import "./rodaPe.scss";
+@import "./contato.scss";
+@import "./parallax-top.scss";
 @import "./horario.scss";
 @import "./separador.scss";
 @import "./slick.scss";
@@ -12,6 +12,24 @@
 
 
 .body-principal {
+  background-color: red !important;
+  .main-principal {
+
+
+    .msgConfir {
+      background-color: #212121;
+      position: absolute;
+      left: 16%;
+      top: 330%;
+      color: white;
+      font-weight: 700;
+      font-size: 20px !important;
+      padding: 25px;
+      border-radius: 50px;
+    }
+
+
+  }
 
 
 }
