@@ -1,3 +1,3 @@
-/* setTimeout(function () {
+setTimeout(function () {
     $('.msgConfir').fadeOut('hidden');
-}, 2500); */
+}, 2500);

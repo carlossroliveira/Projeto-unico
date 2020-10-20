@@ -1,20 +1,15 @@
-@import "./topo.scss";
-@import "./rodaPe.scss";
-@import "./contato.scss";
-@import "./parallax-top.scss";
-@import "./horario.scss";
-@import "./separador.scss";
-@import "./slick.scss";
-@import "./duvida.scss";
-
-
-
-
+@import "./_topo.scss";
+@import "./_rodaPe.scss";
+@import "./_contato.scss";
+@import "./_parallax-top.scss";
+@import "./_horario.scss";
+@import "./_separador.scss";
+@import "./_slick.scss";
+@import "./_duvida.scss";
 
 .body-principal {
-  background-color: red !important;
+    
   .main-principal {
-
 
     .msgConfir {
       background-color: #212121;
@@ -27,9 +22,5 @@
       padding: 25px;
       border-radius: 50px;
     }
-
-
   }
-
-
 }

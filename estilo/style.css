@@ -839,10 +839,6 @@
   }
 }
 
-.body-principal {
-  background-color: red !important;
-}
-
 .body-principal .main-principal .msgConfir {
   background-color: #212121;
   position: absolute;
@@ -854,4 +850,4 @@
   padding: 25px;
   border-radius: 50px;
 }
-/*# sourceMappingURL=estilo.css.map */
+/*# sourceMappingURL=style.css.map */

@@ -27,7 +27,7 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
     <!-- ESTILO-CSS-COM-SASS -->
-    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="stylesheet" href="estilo/style.css">
 
 </head>
 
@@ -256,7 +256,7 @@
             </div>
         </section> -->
 
-         <section class="section-contato" id="contato">
+        <section class="section-contato" id="contato">
             <div class="container">
                 <div class="form-principal">
                     <h1 class="titulo-contato">Contato</h1>
@@ -359,7 +359,7 @@
                 <div class="separador-03"></div>
             </div>
         </section>
-        
+
     </main>
 
     <!-- baixo -->
@@ -433,7 +433,7 @@
     <script src="./app.js/digitar.js"></script>
     <script src="./app.js/scroll-suave.js"></script>
     <script src="./app.js/informacoes.js"></script>
-   <!--  <script src="./app.js/msgConfir.js"></script> -->
+     <script src="./app.js/msgConfir.js"></script>
 
 
     <!-- Slick -->
@@ -446,5 +446,4 @@
 
 
 </body>
-
 </html>
