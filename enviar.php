@@ -62,8 +62,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
 	if($mail->send()) {
-		$confir = 'Email enviado com sucesso';
-	} 
+		echo '<script>
+        $(document).ready(function() {
+            swal("Sucesso", "Sua mensagem foi enviada", "success");
+        });
+    </script>';
+	}
 /* } */ /* catch (Exception $e) {
 	echo "A mensagem não pôde ser enviada";
 } */

@@ -850,4 +850,9 @@
   padding: 25px;
   border-radius: 50px;
 }
+
+.body-principal .main-principal .loading {
+  display: inline-block;
+  margin-left: 20px;
+}
 /*# sourceMappingURL=style.css.map */

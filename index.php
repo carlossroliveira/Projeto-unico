@@ -291,6 +291,7 @@
                                         rows="10" placeholder="Mensagem"></textarea>
                                 </div>
                                 <input class="botaoEnviar" type="submit" name="Reservar">
+                                <div class="loading"></div>
                             </form>
                         </div>
                         <div class="p-2 flex-fill animate__animated animate__slideInUp">
@@ -331,12 +332,18 @@
             </div>
         </section>
 
-
+        <div class="mostrar">
         <?php include 'enviar.php'; ?>
-
         <?php if ($_SERVER['REQUEST_METHOD'] == 'POST') {?>
-        <p class="msgConfir"><?php echo $confir; ?></p>
+        <script>
+        $(document).ready(function() {
+            swal("Sucesso", "Sua mensagem foi enviada", "success");
+        });
+        </script>
         <?php } ?>
+
+        
+    </div>
 
         <!-- Duvida -->
         <section id="duvida" class="animate__animated animate__backInLeft">
@@ -433,8 +440,8 @@
     <script src="./app.js/digitar.js"></script>
     <script src="./app.js/scroll-suave.js"></script>
     <script src="./app.js/informacoes.js"></script>
-     <script src="./app.js/msgConfir.js"></script>
-
+    <script src="./app.js/ajax.js"></script>
+    <script src="./app.js/sweetalert.js"></script>
 
     <!-- Slick -->
     <script src="./slick/slick/slick.min.js"></script>
@@ -446,4 +453,5 @@
 
 
 </body>
+
 </html>
