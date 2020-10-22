@@ -1,219 +1,179 @@
+@import "variaveis";
 .body-principal {
-
-    /* RODA-PE-DESKTOP */
-    .footer-principal {
-        background-color: #212121;
-        padding: 5%;
-
-        p {
-            font-size: 14px;
-            color: white;
-        }
-
-        h5 {
-            color: #2b9348;
-            text-transform: uppercase;
-            font-size: 14px;
-            font-weight: 700;
-            margin-bottom: 5%;
-        }
-
-        .footer-conteudo {
-            margin: 0 auto;
-            text-align: center;
-
-            .conteudo-1 {
-
-                .pro>small {
-                    font-size: 14px;
-                }
-
-                small>a {
-                    text-decoration: none;
-                    color: white;
-                }
-
-                small>a:hover {
-                    color: #2b9348;
-                }
-            }
-
-            .conteudo-1>p:nth-child(1) {
-                padding-bottom: 50px;
-            }
-
-            .conteudo-2 {
-                .rede-social {
-                    max-width: 35px;
-                    margin-left: 10px;
-                    filter: grayscale(100%);
-                }
-
-                .rede-social:hover {
-                    filter: grayscale(0);
-                }
-            }
-
-            .conteudo-3 {
-                ul {
-                    padding: 0;
-                    max-width: 50%;
-                    margin: 0 auto;
-
-                    li {
-
-                        color: #2b9348;
-
-                        a {
-                            text-decoration: none;
-                            color: white;
-                        }
-
-                        a:hover {
-                            color: #2b9348;
-                        }
-                    }
-                }
-
-            }
-
-            .conteudo-4 {
-                .img-pagamento {
-                    max-width: 55px;
-                    margin-left: 3%;
-                    filter: grayscale(100%);
-                }
-
-                .img-pagamento:hover {
-                    filter: grayscale(0);
-                }
-
-                p {
-                    margin-top: 6%;
-                }
-            }
-
-            .mod {
-                margin: 0 auto;
-
-                .pro>small {
-                    font-size: 14px;
-                }
-
-                small>a {
-                    text-decoration: none;
-                    color: white;
-                }
-
-                small>a:hover {
-                    color: #2b9348;
-                }
-            }
-        }
-
-        .up {
-            background-color: #2b9348;
-            opacity: 0.7;
-            border-radius: 50px;
-            bottom: 14px;
-            box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, .75);
-            cursor: pointer;
-            height: 40px;
-            position: fixed;
-            right: 22px;
-            width: 40px;
-            z-index: 1;
-
-            .seta {
-                position: absolute;
-                right: 8px;
-                top: 7px;
-                max-width: 25px;
-            }
-        }
-    }
-
-    /* RODA-PE-MOBILE */
-    @media (max-width: 575px) {
-        .footer-principal {
-            .footer-conteudo {
-                .conteudo-1 {
-                    margin: 10px auto 0px auto;
-                }
-
-                .conteudo-1>p:nth-child(1) {
-                    padding-bottom: 20px;
-                }
-
-                .conteudo-2 {
-                    .rede-social {
-                        filter: grayscale(0);
-                    }
-                }
-
-                .conteudo-3 {
-                    margin: 40px auto 20px auto;
-                }
-
-                .conteudo-4 {
-                    margin: 20px auto;
-
-                    .img-pagamento {
-                        filter: grayscale(0);
-                    }
-                }
-            }
-        }
-    }
-
-    @media (min-width: 576px) and (max-width: 767px) {
-        .footer-principal {
-            .footer-conteudo {
-                padding: 0;
-
-                .conteudo-2 {
-                    .rede-social {
-                        filter: grayscale(0);
-                    }
-                }
-
-                .conteudo-4 {
-                    .img-pagamento {
-                        filter: grayscale(0);
-                    }
-                }
-
-                .mod {
-                    margin-top: 40px;
-                }
-            }
-        }
-    }
-
-    @media (min-width: 768px) and (max-width: 991px) {
-        .footer-principal {
-
-            .footer-conteudo {
-                padding: 0;
-
-                .conteudo-2 {
-                    .rede-social {
-                        filter: grayscale(0);
-                    }
-                }
-
-                .conteudo-4 {
-                    .img-pagamento {
-                        filter: grayscale(0);
-                    }
-                }
-
-                .mod {
-                    padding-right: 15px;
-                    padding-left: 15px;
-                    margin: 0;
-                }
-            }
-        }
-    }
+	/* RODA-PE-DESKTOP */
+	.footer-principal {
+		background-color: $corDeFundoPrincipal;
+		padding: 5%;
+		p {
+			font-size: $PfontePadrao;
+			color: $corBranca;
+		}
+		h5 {
+			color: $corPrincipal;
+			text-transform: uppercase;
+			font-size: $PfontePadrao;
+			font-weight: 700;
+			margin-bottom: 5%;
+		}
+		.footer-conteudo {
+			margin: $marginZAuto;
+			text-align: $textCenter;
+			.conteudo-1 {
+				.pro>small {
+					font-size: $PfontePadrao;
+				}
+				small>a {
+					text-decoration: $none;
+					color: $corBranca;
+				}
+				small>a:hover {
+					color: $corPrincipal;
+				}
+			}
+			.conteudo-1>p:nth-child(1) {
+				padding-bottom: 50px;
+			}
+			.conteudo-2 {
+				.rede-social {
+					max-width: 35px;
+					margin-left: 10px;
+					filter: grayscale(100%);
+				}
+				.rede-social:hover {
+					filter: $filterZero;
+				}
+			}
+			.conteudo-3 {
+				ul {
+					padding: $zero;
+					max-width: 50%;
+					margin: $marginZAuto;
+					li {
+						color: $corPrincipal;
+						a {
+							text-decoration: $none;
+							color: $corBranca;
+						}
+						a:hover {
+							color: $corPrincipal;
+						}
+					}
+				}
+			}
+			.conteudo-4 {
+				.img-pagamento {
+					max-width: 55px;
+					margin-left: 3%;
+					filter: grayscale(100%);
+				}
+				.img-pagamento:hover {
+					filter: $filterZero;
+				}
+				p {
+					margin-top: 6%;
+				}
+			}
+			.mod {
+				margin: $marginZAuto;
+				.pro>small {
+					font-size: $PfontePadrao;
+				}
+				small>a {
+					text-decoration: $none;
+					color: $corBranca;
+				}
+				small>a:hover {
+					color: $corPrincipal;
+				}
+			}
+		}
+		.up {
+			background-color: $corPrincipal;
+			opacity: 0.7;
+			border-radius: 50px;
+			bottom: $PfontePadrao;
+			box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, .75);
+			cursor: pointer;
+			height: 40px;
+			position: fixed;
+			right: 22px;
+			width: 40px;
+			z-index: 1;
+			.seta {
+				position: absolute;
+				right: 8px;
+				top: 7px;
+				max-width: 25px;
+			}
+		}
+	}
+	/* RODA-PE-MOBILE */
+	@media (max-width: 575px) {
+		.footer-principal {
+			.footer-conteudo {
+				.conteudo-1 {
+					margin: 10px auto 0px auto;
+				}
+				.conteudo-1>p:nth-child(1) {
+					padding-bottom: 20px;
+				}
+				.conteudo-2 {
+					.rede-social {
+						filter: $filterZero;
+					}
+				}
+				.conteudo-3 {
+					margin: 40px auto 20px auto;
+				}
+				.conteudo-4 {
+					margin: 20px auto;
+					.img-pagamento {
+						filter: $filterZero;
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: 576px) and (max-width: 767px) {
+		.footer-principal {
+			.footer-conteudo {
+				padding: $zero;
+				.conteudo-2 {
+					.rede-social {
+						filter: $filterZero;
+					}
+				}
+				.conteudo-4 {
+					.img-pagamento {
+						filter: $filterZero;
+					}
+				}
+				.mod {
+					margin-top: 40px;
+				}
+			}
+		}
+	}
+	@media (min-width: 768px) and (max-width: 991px) {
+		.footer-principal {
+			.footer-conteudo {
+				padding: $zero;
+				.conteudo-2 {
+					.rede-social {
+						filter: $filterZero;
+					}
+				}
+				.conteudo-4 {
+					.img-pagamento {
+						filter: $filterZero;
+					}
+				}
+				.mod {
+					padding-right: 15px;
+					padding-left: 15px;
+					margin: $zero;
+				}
+			}
+		}
+	}
 }

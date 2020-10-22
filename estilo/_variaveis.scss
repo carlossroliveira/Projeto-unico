@@ -1,0 +1,34 @@
+/* Cores */
+$corDeFundoPrincipal:#212121;
+$corPrincipal:#2b9348;
+$corBranca: #fff;
+
+
+/* propriedades */
+$FonteFamily: 'Alata', sans-serif;
+$PfontePadrao: 14px;
+$filterZero: grayscale(0);
+$zero: 0;
+$marginZAuto: 0 auto;
+$none: none;
+$textCenter: center;
+$maxW: 100% !important;
+$fonteW600: 600;
+$maxW65: 65%;
+
+/* Mixin */
+@mixin displayN {
+    display: none !important;
+}
+
+@mixin separadorD {
+    background-repeat: no-repeat;
+    height: 65px;
+    max-width: 70%;
+}
+
+@mixin separadorM {
+    background-repeat: no-repeat;
+    height: 65px;
+    max-width: 65%;
+}
