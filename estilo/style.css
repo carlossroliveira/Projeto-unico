@@ -465,6 +465,23 @@
   border-color: #2b9348 !important;
 }
 
+.body-principal .main-principal .msgConfir {
+  background-color: #212121;
+  position: absolute;
+  left: 16%;
+  top: 330%;
+  color: white;
+  font-weight: 700;
+  font-size: 20px !important;
+  padding: 25px;
+  border-radius: 50px;
+}
+
+.body-principal .main-principal .loading {
+  display: inline-block;
+  margin-left: 20px;
+}
+
 @media (max-width: 767px) {
   .body-principal .main-principal .form-principal {
     margin: 100px auto 40px;
@@ -837,22 +854,5 @@
     left: -20px;
     top: 60px;
   }
-}
-
-.body-principal .main-principal .msgConfir {
-  background-color: #212121;
-  position: absolute;
-  left: 16%;
-  top: 330%;
-  color: white;
-  font-weight: 700;
-  font-size: 20px !important;
-  padding: 25px;
-  border-radius: 50px;
-}
-
-.body-principal .main-principal .loading {
-  display: inline-block;
-  margin-left: 20px;
 }
 /*# sourceMappingURL=style.css.map */

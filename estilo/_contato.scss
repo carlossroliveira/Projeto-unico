@@ -1,5 +1,6 @@
 .body-principal {
     .main-principal {
+        
         .section-contato {
             background-image: url('../img/bg-preto.jpg');
 
@@ -85,6 +86,23 @@
             box-shadow: none;
             border-color: #2b9348 !important;
         }
+
+        .msgConfir {
+            background-color: #212121;
+            position: absolute;
+            left: 16%;
+            top: 330%;
+            color: white;
+            font-weight: 700;
+            font-size: 20px !important;
+            padding: 25px;
+            border-radius: 50px;
+          }
+      
+          .loading{
+            display: inline-block;
+            margin-left: 20px;
+          }
     }
 
     @media (max-width: 767px) {

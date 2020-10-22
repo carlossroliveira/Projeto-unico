@@ -7,7 +7,6 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-
  function clean_input($input) {
     $input = trim($input);
     $input = stripslashes($input);
@@ -38,10 +37,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	$mail = new PHPMailer(true); 
 	$mail->CharSet = "UTF-8";
 
-
-
-/* try { */
-	
 	$mail->isSMTP();
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
@@ -52,15 +47,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	$mail->setFrom($email, $nome);
 	$mail->addAddress('washington.wtom@gmail.com');
 
-
 	$mail->isHTML(true);
 	$mail->Subject = 'Dúvida';
     $mail->Body = $texto_msg;
     
-    
-    
-
-
 	if($mail->send()) {
 		echo '<script>
         $(document).ready(function() {
@@ -68,8 +58,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         });
     </script>';
 	}
-/* } */ /* catch (Exception $e) {
-	echo "A mensagem não pôde ser enviada";
-} */
  }
 ?>
