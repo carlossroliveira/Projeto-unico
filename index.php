@@ -23,7 +23,7 @@
     <!-- Slick -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- ESTILO-CSS-COM-SASS -->
-    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="_estilo/style.css">
 
 </head>
 
