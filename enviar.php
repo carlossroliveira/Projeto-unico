@@ -40,12 +40,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	$mail->isSMTP();
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
-	$mail->Username = 'washington.wtom@gmail.com';
-	$mail->Password = 'w.tom86938094';
+	$mail->Username = 'Seu e-mail';
+	$mail->Password = 'sua senha';
 	$mail->Port = 587;
 
 	$mail->setFrom($email, $nome);
-	$mail->addAddress('washington.wtom@gmail.com');
+	$mail->addAddress('seu e-mail');
 
 	$mail->isHTML(true);
 	$mail->Subject = 'Dúvida';
